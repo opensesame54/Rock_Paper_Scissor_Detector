@@ -6,5 +6,6 @@ Built a computer vision model that lets you play Rock-Paper-Scissors using just 
 ### Steps:
 
 1. **Dataset Collection:** Used a custom Rock-Paper-Scissors hand gesture dataset from Roboflow Universe.
+  The dataset I used: [Dataset](https://universe.roboflow.com/roboflow-58fyf/rock-paper-scissors-sxsw)
 2. **Model Training:** Trained a YOLOv8 object detection model on Google Colab using a T4 GPU for 50 epochs. Achieved ~96% precision.
 3. **Deployment:** Downloaded the trained model and implemented real-time gesture detection using OpenCV and my local webcam.
